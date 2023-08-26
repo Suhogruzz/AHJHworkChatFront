@@ -25,6 +25,7 @@ export default class InnerLogin {
     this.form = document.forms.nickname;
     this.input = this.form.elements["input-nickname"];
     this.button = document.querySelector(".button");
+    this.validate = document.querySelector(".validate");
     
     this.input.addEventListener("focus", this.onFocus);
   }
