@@ -35,7 +35,7 @@ export default class InnerLogin {
   }
 
   onFocus = () => {
-    this.validate.classList.add("unvisible");
+    this.validate.classList.add("invisible");
   };
   
   formVision() {
