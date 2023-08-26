@@ -5,7 +5,7 @@ export default class InnerLogin {
     this.ws = null;
   }
 
-  static get murkup() {
+  static get markup() {
     return `
         <form name="nickname">
             <p class="title">Выберите псевдоним</p>
