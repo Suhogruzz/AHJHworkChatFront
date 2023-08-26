@@ -9,7 +9,7 @@ export default class InnerLogin {
     return `
         <form name="nickname">
             <p class="title">Выберите псевдоним</p>
-            <input type="text" class="input-nickname invisible" name="input-nickname" minlength="6" maxlength="30" placeholder="Enter your nickname" required>
+            <input type="text" class="input-nickname" name="input-nickname" minlength="6" maxlength="30" placeholder="Enter your nickname" required>
             <p class="validate">
               - latin letters only
               - no numbers allowed
