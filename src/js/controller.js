@@ -83,7 +83,7 @@ export default class Controller {
       if (nickname && this.#nicknames.includes(nickname) === false) {
         this.#ws.send(JSON.stringify({ nickname: nickname }));
         this.#InnerLogin.formVision();
-        this.#InnerChat.chatVision();
+        this.#InnerChat.chatVisibility();
         this.#you = nickname;
         this.#InnerChat.you = nickname;
       } else {
