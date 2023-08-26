@@ -48,7 +48,7 @@ export default class Controller {
         const { nicknames } = data;
         this.#nicknames = nicknames;
         this.#InnerChat.owners = nicknames;
-        this.#InnerChat.innerOwners();
+        this.#InnerChat.innerOwner();
       }
 
       if (data.chat) {
