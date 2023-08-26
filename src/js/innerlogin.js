@@ -9,7 +9,7 @@ export default class InnerLogin {
     return `
         <form name="nickname">
             <p class="title">Выберите псевдоним</p>
-            <input type="text" class="input-nickname invisible" name="input-nickname" minlength="6" maxlength="30" placeholder="Введите псевдоним (Например: Alexandra-38)" required>
+            <input type="text" class="input-nickname invisible" name="input-nickname" minlength="6" maxlength="30" placeholder="Enter your nickname" required>
             <div class="button">Продолжить</div>
         </form>
         `;
