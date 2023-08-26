@@ -48,12 +48,12 @@ export default class Controller {
         const { nicknames } = data;
         this.#nicknames = nicknames;
         this.#InnerChat.owners = nicknames;
-        this.#InnerChat.innOwners();
+        this.#InnerChat.innerOwners();
       }
 
       if (data.chat) {
         this.#InnerChat.messages = data.chat;
-        this.#InnerChat.innMessages();
+        this.#InnerChat.innerMessages();
       }
 
       console.log("ws message");
