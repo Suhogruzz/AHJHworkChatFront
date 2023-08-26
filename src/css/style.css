@@ -54,6 +54,14 @@ form {
     border-radius: 15px;
 }
 
+.validate {
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 15px;
+    color: red;
+    white-space: pre-line;
+}
+
 .chat {
     display: flex;
     flex-direction: column;
